@@ -1,0 +1,4 @@
+1. run React app: npm start
+2. type rafce to open the ES7 snippet
+3.  curly bracets indicate js expression
+      <p>{name}</p>
