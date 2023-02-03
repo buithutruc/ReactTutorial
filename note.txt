@@ -3,3 +3,4 @@
 3.  curly bracets indicate js expression
       <p>{name}</p>
 4. control + `: open the terminal      
+5. sh: react-scripts: command not found after running npm start: https://stackoverflow.com/questions/40546231/sh-react-scripts-command-not-found-after-running-npm-start
