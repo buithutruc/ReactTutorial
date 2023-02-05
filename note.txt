@@ -4,3 +4,8 @@
       <p>{name}</p>
 4. control + `: open the terminal      
 5. sh: react-scripts: command not found after running npm start: https://stackoverflow.com/questions/40546231/sh-react-scripts-command-not-found-after-running-npm-start
+
+6. npm install react-icons --save = npm i react-icons -D
+
+#sources
+1. https://www.npmjs.com/
