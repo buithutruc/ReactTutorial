@@ -1,6 +1,6 @@
 //just type rafce, then enter. Command + Shift + R doesn't work, for some reason
 
-const Header = () => {
+const Header = ({ title }) => {
   //   const headerStyle = {
   //     backgroundColor: "royalblue",
   //     color: "#fff",
@@ -8,9 +8,13 @@ const Header = () => {
   return (
     // <header style={headerStyle}>
     <header>
-      <h1>Groceries List</h1>
+      <h1>{title}</h1>
     </header>
   );
+};
+
+Header.defaultProps = {
+  title: "Default Title",
 };
 
 export default Header;
