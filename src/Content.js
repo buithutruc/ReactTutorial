@@ -1,6 +1,6 @@
 import React from "react";
 import ItemList from "./ItemList";
-import { FaTrashAlt } from "react-icons/fa";
+
 
 const Content = ({ items, handleCheck, handleDelete }) => {
   return (
