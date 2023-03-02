@@ -23,6 +23,8 @@ function App() {
     },
   ]);
 
+  const [newItem, setNewItem] = useState("");
+
   const handleCheck = (id) => {
     const listItems = items.map((item) =>
       item.id === id ? { ...item, checked: !item.checked } : item
