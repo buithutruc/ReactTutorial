@@ -31,7 +31,7 @@ body {
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
+  background-color: palevioletred;
   color: aliceblue;
   display: flex;
   justify-content: space-between;
@@ -51,7 +51,7 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
+  background-color: palevioletred;
   color: aliceblue;
   display: grid;
   place-content: center;
